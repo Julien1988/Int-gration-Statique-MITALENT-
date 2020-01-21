@@ -14,6 +14,14 @@
      font-weight: 800;
  }
 
+ h2 {
+     font-size: 2.5em;
+ }
+
+ h3 {
+     letter-spacing: 0.2em;
+ }
+
  a {
      color: black;
      text-decoration: none;
@@ -69,7 +77,6 @@
  .main__section-top {
      display: flex;
      justify-content: space-between;
-     padding-bottom: 10em;
      padding-left: 2em;
      
     
@@ -80,8 +87,8 @@
 
  .main__section-top__container-mid__image-background {
      position: relative;
-     width: 80%;
-     height:150%;
+     width: 100%;
+     height:100%;
      
      
  }
@@ -89,14 +96,31 @@
  .main__section-top__container-mid {
      width: 70%;
      height: 20em;
-     transform: translateX(9em);
+     /* transform: translateX(8.2em); */
  }
 
 /* Text over image */
 
+
  .section-top-position {
+    
     position: absolute;
     z-index: 2;
+    height: 93.5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+ }
+
+ /* Text container */
+
+ .main__section-top__container-mid__text-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-grow: 1;
+    transform: translateX(-2.2em);
+
  }
 
 
@@ -122,5 +146,44 @@
 /* Container top left */
 
 .main__section-top__container-left {
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     
+}
+
+/* List left social icones */
+
+.main__section-top__container-left__top {
+    flex-grow: 1;
+}
+
+/* List items */
+
+.main__section-top__container-left__top__list {
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/* Count number */
+
+.main__section-top__container-left__mid {
+    flex-grow: 2;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+/* Button */
+
+.main__section-top__container-left__bot__button {
+    width: 100%;
+    padding: 1em;
+    background-color: #bdd7d8;
+    color: white;
+    border: none;
 }
