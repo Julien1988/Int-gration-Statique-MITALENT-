@@ -286,6 +286,7 @@ a {
     margin-right: 5em;
     margin-left: 5em;
     margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .main__section-bot__articles-top__content {
@@ -331,3 +332,153 @@ a {
     font-size: 0.8em;
 }
 
+/* article bot */
+
+.main__section-bot__articles-bot {
+    display: flex;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.main__section-bot__articles-bot__container-left__box-content {
+    display: flex;
+    margin-bottom: 2em;
+    
+}
+
+.main__section-bot__articles-bot__box-content__left-side {
+    background-color: #bdd7d8;
+    padding-left: 3em;
+    padding: 3em;
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+}
+
+.main__section-bot__articles-bot__box-content__left-side > h4 {
+    padding-bottom: 0.5em;
+}
+
+
+.main__section-bot__articles-bot__box-content__left-side > i {
+    color: white;
+    font-size: 4em;
+    padding-bottom: 0.1em;
+}
+
+.main__section-bot__articles-bot__box-content__left-side__text {
+    color: white;
+    font-size: 1.5em;
+}
+
+.main__section-bot__articles-bot__box-content__left-side__subtext {
+    color: white;
+    font-size: 0.8em;
+}
+
+/* article bot - left */
+
+.main__section-bot__articles-bot__container-left {
+    display: flex;
+    flex-flow: column;
+    margin-right: 2em
+}
+
+.main__section-bot__articles-bot__container-left__box-bot {
+    display: flex;
+}
+
+.main__section-bot__articles-bot__container-left__box-content__image {
+    position: relative;
+    height: 100%;
+}
+
+.main__section-bot__articles-bot__container-left__box-content__link {
+    position: absolute;
+    color: black;
+    background-color: white;
+    z-index: 1;
+    margin-left: 10em;
+    margin-top: 1em;
+    padding: 0.5em;
+    
+}
+
+/* image bot box section */
+
+    
+.main__section-bot__articles-bot__container-left__box-bot__left-content {
+    margin-right: 2em;
+}
+
+/* Image bot left-side */
+/* HERE !!!! */
+.main__section-bot__articles-bot__container-left__box-bot__left-content__image {
+    position: relative;
+    
+}
+
+.container-text-left-box-content {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 21.8em;
+    margin-top: 21.3em;
+}
+
+.main__section-bot__articles-bot__container-left__box-bot__left-content__title {
+    
+    color: black;
+    font-weight: 600;
+}
+
+.main__section-bot__articles-bot__container-left__box-bot__left-content__subtitle {
+    font-size: 0.8em;
+}
+
+/* Right box - content box */
+
+.main__section-bot__articles-bot__container-left__box-bot__right-content {
+    
+}
+
+.main__section-bot__articles-bot__container-left__box-bot__right-content__image {
+    position: relative;
+}
+
+.main__section-bot__articles-bot__container-left__box-bot__right-content__box-content {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20em;
+    margin-left: 1em;
+    color: white;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 90px;
+}
+
+.main__section-bot__articles-bot__container-left__box-bot__right-content__box-content > button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+/* Right side content box */
+
+.main__section-bot__articles-bot__container-right {
+    height: 51.3em;
+}
+
+.main__section-bot__articles-bot__container-right__image {
+    height: 80%;
+}
+
+.main__section-bot__articles-bot__container-right__title {
+    padding-top: 1.5em;
+    color: black;
+    font-weight: 600;
+}
+
+.main__section-bot__articles-bot__container-right__subtitle {
+    font-size: 0.8em;
+}
