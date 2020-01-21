@@ -61,12 +61,7 @@
 
  /* MAIN */
 
- .main__section-top__container-mid {
-     
-     
-     
-     
- }
+ 
 
  /* Section-top */
  
@@ -85,13 +80,16 @@
 
  .main__section-top__container-mid__image-background {
      position: relative;
-     
+     width: 80%;
      height:150%;
+     
+     
  }
 
  .main__section-top__container-mid {
      width: 70%;
      height: 20em;
+     transform: translateX(9em);
  }
 
 /* Text over image */
@@ -100,3 +98,29 @@
     position: absolute;
     z-index: 2;
  }
+
+
+ /* List container top */
+
+ /* Container right */
+
+ .main__section-top__container-right {
+     
+     background-color: green;
+     width: 33%;
+     
+     
+}
+
+/* list */
+
+.main__section-top__container-right__bot-content {
+
+    background-color: red;
+}
+
+/* Container top left */
+
+.main__section-top__container-left {
+    
+}
