@@ -9,7 +9,7 @@
     
 
 }
-
+/*pour stylisé la partie gauche du header*/
 .header_left {
     width: 30em;
     background-image: url(./int-images/image_back.jpg);
@@ -25,11 +25,8 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
-   
-    
-
-
 } 
+
 ul {
     display: flex;
     flex-direction: row;
@@ -88,24 +85,47 @@ i{
 
 
 
-
+/*partie centrale du header*/
 .header__center {
-    width: 30em;
+    width: 24em;
     display: flex;
     flex-direction: column;
+}
 
-   
+p {
+    padding-right: 1.2em;
+    padding-top: 1em;
+    font-size: 0.8em;
+}
+
+.header_center_title_para4 {
+    margin-top: 3.5em;
+    color: white;
+    height: 7em;
+    width: 15em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 51, 51);
 
 }
 h1 {
-    padding-top: 0.8em;
-    padding-bottom: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
 }
 
+/*pour stylisé la partie droite du header*/
 .header__right {
+    height:20em;
     width: 10em;
-    background-color: brown;
+    background-color: rgb(131, 173, 173);
+    display: flex;
+    padding-top: 3em;
+    padding-left: 7em;
+    
+    
 }
+
 
 /* partie pour stylisé le main */
 .main {
@@ -131,13 +151,14 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     justify-items: start;
-    
-
 }
 
 a {
     padding: 1em;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    color: black;
+    border-bottom: solid 0.1px;
+    border-color: black;
     
 }
 
@@ -147,22 +168,23 @@ a {
     flex-direction: row;
     padding-right: 4em;
     padding-left: 4em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 
 }
 img {
     min-width: 25%;
     height: 20em;
+    opacity: 0.95;
+
 }
 
 /* partie pour stylisé le footer */
 .footer {
-    height: 10em;
+    height: 8em;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     background-color: white;
@@ -173,6 +195,8 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    border-bottom: solid 0.7px;
+    border-color: rgb(152, 194, 196);
 }
 .footer__section-footer__section-bot {
     display: flex;
