@@ -482,3 +482,38 @@ a {
 .main__section-bot__articles-bot__container-right__subtitle {
     font-size: 0.8em;
 }
+
+/* FOOTER */
+
+.footer {
+    
+}
+
+.footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section - left */
+
+.footer__section-bot__content {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__section-bot__content > i {
+    padding-right: 0.5em;
+}
+
+/* Section - right */
+
+.footer__section-bot__content__social-area__list {
+    display: flex;
+    width: 10em;
+    justify-content: space-between;
+}
+
+.footer__section-top__link > i {
+    padding-left: 1em;
+}
