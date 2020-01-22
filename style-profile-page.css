@@ -1,0 +1,28 @@
+/* GLOBAL */
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    font-size:1em;
+    min-width: 12em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__container {
+    text-transform: uppercase;
+}
+
+.header__side-bar {
+    font-size:1em;
+}
+
+/* MAIN */
+
+/* FOOTER */
