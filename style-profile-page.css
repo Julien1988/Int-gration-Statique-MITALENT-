@@ -150,4 +150,211 @@ body {
     color: black;
 }
 
+/* Section - mid */
+
+/* Section - mid -- container top */
+
+.main-profile__section-mid__container-top {
+    display: flex;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.main-profile__section-mid__container-top__content-box {
+    display: flex;
+    
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+
+/* --nav bar */
+
+.main-profile__section-mid__container-top__content-box__nav {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.main-profile__section-mid__container-top__content-box__nav__link {
+    color: black;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-profile__section-mid__container-top__content-box__nav__link:hover {
+    border-bottom: 1px solid black;
+}
+
+/* -- Container */
+
+.main-profile__section-mid__container-top__content-box__container {
+    margin-right: 10em;
+}
+
+/* -- Title */
+
+.main-profile__section-mid__container-top__content-box__container__title {
+    font-size: 2em;
+    margin-bottom: initial;
+}
+
+.main-profile__section-mid__container-top__content-box__container__subtitle {
+
+}
+
+/* -- Text */
+
+.main-profile__section-mid__container-top__content-box__container__text {
+    font-size: 0.9em;
+}
+
+.main-profile__section-mid__container-top__content-box__container__vignet {
+    color: black;
+    font-weight: 600;
+}
+
+/* -- Social icones */
+
+.main-profile__section-mid__container-top__content-box__social-media-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.main-profile__section-mid__container-top__content-box__main-profile__section-mid__container-top__content-box__social-media-box__list {
+    
+    height: 20%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    list-style: none;
+} 
+
+.main-profile__section-mid__container-top__content-box__social-media-box__list__item__link {
+    color: black;
+}
+
+.main-profile__section-mid__container-top__content-box__social-media-box__list__item__link:hover {
+    border-bottom: 1px dotted black;
+}
+
+/* -- image */
+
+.main-profile__section-mid__container-top__image-box {
+    margin-left: 4em;
+    display: grid;
+    grid-template-columns: repeat(1, 20em);
+    grid-template-rows: repeat(1, 32em);
+}
+
+.main-profile__section-mid__container-top__image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Section - mid */
+
+.main-profile__section-mid__container-bot__content-box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Section - mid - articles box */
+
+.main-profile__section-mid__container-bot__content-box__articles-box {
+ width: 50%;
+ 
+}
+
+/* -- Title */
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-right: 10em;
+}
+
+/* --border */
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__title__border {
+    border-bottom: 1px solid black;
+    
+    margin-right: 35em;
+    margin-bottom: 2em;
+}
+
+/* -- Articles box */
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__article {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__article__container {
+    margin-right: 2em;
+}
+
+/* -- Image */
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__article__image-box {
+    width: 20%;
+    height: 20%;
+    margin-right: 2em;
+}
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__article__image-box__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* -- Image right side */
+
+.main-profile__section-mid__container-bot__content-box__image-box{
+    width: 35%;
+    height: 35%;
+}
+
+.main-profile__section-mid__containerbotp__content-box__image-box__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* -- Link */
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__link {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    
+}
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__link:hover {
+    color: #bdd7d8;
+}
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__link > i {
+    padding-left: 1em;
+}
+
+.main-profile__section-mid__containerbotp__content-box__articles-box__article__container__title > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* -- article - hover */
+.main-profile__section-mid__containerbotp__content-box__articles-box__article__container__title > a:hover {
+    color: #bdd7d8;
+}
 /* FOOTER */
