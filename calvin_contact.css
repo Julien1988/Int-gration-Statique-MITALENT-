@@ -39,11 +39,26 @@ li{
     font-size: 0.7em;
     
 }
-.header_left_center {
+.header_left_center_top {
+    height: 8em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left:5em ;
+    justify-content: baseline;
+    align-items: baseline;
+    padding-left:6em ;
+    color: white;
+    font-size: 2em;
+    
+    
+}
+.header_left_center_bottom {
+    height: 10em;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 12em;
+
+    color: white;
+
 }
    
 i{
@@ -87,40 +102,60 @@ i{
     width: 24em;
     display: flex;
     flex-direction: column;
+    padding-top: 0.8em;
 }
 
 p {
     padding-right: 1.2em;
-    padding-top: 1em;
     font-size: 0.8em;
 }
 
-.header_center_title_para4 {
-    margin-top: 3.5em;
-    color: white;
-    height: 7em;
-    width: 15em;
-    align-items: center;
+.header_center_title_para1 {
+    font-size: 1.1em;
+    margin-bottom: 3em;
+    margin-top: 4em;
+}
+.header_center_title_bloc1 {
     display: flex;
-    justify-content: center;
-    background-color: rgb(56, 51, 51);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5em;
+    
+}
+.bloc1_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: inherit;
 
 }
-h1 {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
-}
+
+
+
+
 
 /*pour stylisé la partie droite du header*/
-.header__right {
-    height:20em;
-    width: 10em;
-    background-color: rgb(131, 173, 173);
+.header_right {
+    height: 25em;
+    width:10em ;
     display: flex;
-    padding-top: 3em;
+    flex-direction: column;
+    
+
+}
+
+.header_right_top {
+    height:10em;
+    width: 10em;
+    background-color: white;
     padding-left: 7em;
-    
-    
+    padding-top: 3em;
+          
+}
+.header_right_bottom {
+    height: 15em;
+    background-color: rgb(131, 173, 173);
 }
 
 
