@@ -109,6 +109,11 @@ p {
     padding-right: 1.2em;
     font-size: 0.8em;
 }
+.majiscule {
+    height: 3em;
+    font-size: 3em;
+    align-self: baseline;
+}
 
 .header_center_title_para1 {
     font-size: 1.1em;

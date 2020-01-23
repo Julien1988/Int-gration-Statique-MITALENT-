@@ -97,6 +97,12 @@ p {
     padding-top: 1em;
     font-size: 0.8em;
 }
+.majiscule {
+    height: 3em;
+    font-size: 3em;
+    align-self: baseline;
+    
+}
 
 .header_center_title_para4 {
     margin-top: 3.5em;
