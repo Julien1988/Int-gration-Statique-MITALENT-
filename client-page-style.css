@@ -1,0 +1,361 @@
+/*partie pour stylisé le section Calvin*/
+.section {
+  display: grid;
+  grid-template-columns: 2em repeat(11, 8.4em);
+  grid-template-rows: repeat(8, 5em);
+}
+.section_1 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 5/9;
+  background-color: rgb(146, 200, 202);
+}
+.section_2 {
+  display: grid;
+  grid-column: 3/7;
+  grid-row: 4/6;
+}
+h3 {
+  color: black;
+  font-size: 3em;
+  z-index: 1;
+}
+.section_3 {
+  height: 15em;
+  width: 25.2em;
+  display: grid;
+  grid-column: 3;
+  grid-row: 7;
+}
+.section_4 {
+  display: grid;
+  grid-column: 10/13;
+  grid-row: 6/9;
+  z-index: 2;
+}
+.section_5 {
+  display: grid;
+  grid-column: 9/13;
+  grid-row: 4/7;
+  background-color: rgb(146, 200, 202);
+  z-index: 1;
+}
+.footer_media_sociaux {
+  height: 15em;
+  width: 25.2em;
+}
+.section_5 > ul {
+  height: 15em;
+  width: 25.2em;
+}
+.section_6 {
+  display: grid;
+  grid-column: 4/13;
+  grid-row: 1/7;
+  z-index: 0;
+  padding-top: 3em;
+}
+.section_7 {
+  display: grid;
+  grid-column: 4/11;
+  grid-row: 7/9;
+  padding-top: 5em;
+}
+.section_7_1 {
+  width: 58.4em;
+  height: 10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section_7_1_top {
+  width: 29.2em;
+  height: 10em;
+  padding-right: 1em;
+}
+.section_7_1_bottom {
+  width: 29.2em;
+  height: 10em;
+  padding-left: 1em;
+}
+.img1 {
+  height: 15em;
+  width: 16em;
+}
+.img2 {
+  height: 30em;
+  width: 67.2em;
+}
+
+/*partie pour stylisé le main*/
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.main_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin: 2em;
+}
+.main > a {
+  color: black;
+  border-bottom: solid black 1px;
+}
+.main_bottom {
+  display: flex;
+  flex-direction: column;
+}
+.main_bottomx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0.5em;
+}
+.main_bottomx1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.img3 {
+  height: 4em;
+  width: 6em;
+  padding-top: 0.3em;
+}
+
+/* partie pour stylisé le footer */
+.footer {
+  height: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  background-color: white;
+}
+.footer__section-footer__section-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: solid 0.7px;
+  border-color: rgb(152, 194, 196);
+}
+.footer__section-footer__section-bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_media_sociaux {
+  width: 10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.footer > i::before {
+  padding: 0.7em;
+}
+.footer > a {
+  font-size: 0.8em;
+}
+
+body {
+  margin: 0;
+  min-width: 1680px;
+  max-width: 1680px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.top-container {
+  display: flex;
+  margin-right: 2em;
+  z-index: 1;
+}
+.left-kid {
+  display: flex;
+  background-color: rgb(221, 233, 235);
+  height: 50em;
+  width: 60em;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.right-kid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: white;*/
+  width: 35em;
+  height: 34em;
+  margin-top: 12.5em;
+  background: url("./dossier photos mitalent/tereza-ruba-TZNB27fN350-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.talent {
+  background-color: white;
+  height: 25em;
+  width: 50em;
+  align-self: center;
+}
+.talent-box {
+  padding-left: 7em;
+  padding-top: 7em;
+}
+.our-talent {
+  font-size: 5em;
+  margin: 0;
+}
+.leading {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+button {
+  background-color: rgb(186, 210, 210);
+  width: 20em;
+  height: 5em;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+}
+.image-top {
+  align-items: center;
+  height: 25em;
+  width: 35em;
+}
+.text-photo {
+  height: 9em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 5em;
+  padding-top: 2em;
+  background-color: white;
+  opacity: 0.9;
+  margin-top: 25em;
+}
+.georgina {
+  font-size: 2em;
+}
+.arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 9em;
+  width: 4em;
+  position: relative;
+  top: -11em;
+  left: 15em;
+  right: 0em;
+  background-color: white;
+  padding-left: 3em;
+}
+header {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+}
+.header__section {
+  display: flex;
+  width: 60em;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-flex {
+  display: flex;
+}
+.header__left {
+  padding-left: 1em;
+  width: 10em;
+  justify-content: space-between;
+}
+.header__center {
+  padding-right: 2em;
+}
+.header__right {
+  width: 20em;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20em;
+}
+.header__right__search {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.main__section-top__container-left__top__list {
+  height: 9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+.main__section-top__container-left {
+  display: flex;
+  flex-direction: column;
+  width: 5em;
+  transform: translateY(-38em);
+  position: absolute;
+  justify-content: center;
+  padding-left: 2em;
+}
+.number-item {
+  margin-top: 12em;
+  margin-bottom: 0em;
+  padding-right: 0em;
+  transform: rotate(-90deg) translateY(-2em);
+}
+
+.container-main-section {
+  margin-top: 5em;
+  margin-left: 0;
+  margin-right: 0;
+}
+.container-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.left-buttons {
+  list-style: none;
+  width: 20em;
+  display: flex;
+  justify-content: space-between;
+}
+.right-buttons {
+  width: 3em;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3em;
+}
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.photo-grid > li {
+  list-style: none;
+  height: 40vh;
+  flex-grow: 1;
+}
+.photo-grid > li > img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
