@@ -1,11 +1,12 @@
 /* GLOBAL */
 
 body {
-    background: linear-gradient(90deg, rgb(11, 240, 240) 0%, rgb(33, 224, 215) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgb(128, 192, 187) 0%, rgb(146, 196, 193) 35%, rgb(96, 143, 153) 100%);
     background-size: 20em 20em;
     background-repeat: no-repeat;
     background-position: top right;
     width: 1280px;
+    
 }
 
 /* HEADER */
@@ -436,11 +437,12 @@ body {
 .main-profile__section-bot__images-box__link:hover > p {
     color: #bdd7d8;
     
-    
+    opacity: 1;
 }
 
 .main-profile__section-bot__images-box__link:hover > h5 {
     color: #bdd7d8;
+    
     opacity: 1;
 }
 
@@ -452,6 +454,9 @@ body {
 .main-profile__section-bot__images-box__link__image:hover {
     
     opacity: 0.1;
+   
+
+    
     
 
 }
@@ -468,6 +473,7 @@ body {
     margin-left: 6em;
     color: white;
     opacity: 0;
+    
     
     
 }
