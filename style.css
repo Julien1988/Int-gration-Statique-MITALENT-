@@ -318,6 +318,12 @@ margin-left: 5em;
 
 /* SECTION BOT */
 
+.main__section-bot {
+    margin-top: 20em;
+margin-bottom: 10em;
+text-align: center;
+}
+
 .main__section-bot__head {
     
     text-align: center;
@@ -527,6 +533,8 @@ margin-left: 5em;
     font-size: 0.8em;
 }
 
+
+
 /* FOOTER */
 
 .footer {
@@ -561,3 +569,4 @@ margin-left: 5em;
 .footer__section-top__link > i {
     padding-left: 1em;
 }
+
